@@ -14,18 +14,18 @@ for ( i = 1; i < argc; ++i ) {
    //  insertNode_R(&b.root,atoi(argv[i]) );
   } // end for
    // traverse the tree preOrder
-   printf("\npreOrder:\n" );
+   printf("\npreOrder\n" );
    preOrder( b.root );
 
    // traverse the tree inOrder
-   printf("\ninOrder:\n" );
+   printf("\ninOrder\n" );
    inOrder( b.root );
 
    // traverse the tree postOrder
-   printf("\npostOrder:\n" );   
+   printf("\npostOrder\n" );   
    postOrder( b.root );
 
-   printf("\nprintTree:\n" );   
+   printf("\nprintTree\n" );   
    printTree( b.root, 0 );
 
    printf("\n");
